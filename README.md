@@ -4,4 +4,6 @@ Working with [CoderDojoChi](http://coderdojochi.org/) to teach children the basi
 
 You can view the examples below:
 
-* [Smiley face example](http://benjiallen.github.io/coderdojochi-js/hello-world/)
+* [Hello World! Smiley face example](http://benjiallen.github.io/coderdojochi-js/hello-world/)
+* Lesson 1 - calling functions
+    - [Basic shapes](/coderdojochi-js/1-calling-functions/examples/1-simple-shapes/index.html)
