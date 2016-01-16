@@ -6,4 +6,4 @@ You can view the examples below:
 
 * [Hello World! Smiley face example](http://benjiallen.github.io/coderdojochi-js/hello-world/)
 * Lesson 1 - calling functions
-    - [Basic shapes](/coderdojochi-js/1-calling-functions/examples/1-simple-shapes/index.html)
+    - [Basic shapes](http://benjiallen.github.io/coderdojochi-js/1-calling-functions/examples/1-simple-shapes/index.html)
