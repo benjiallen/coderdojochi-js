@@ -2,9 +2,11 @@
 Challenge:
 
 Now we know how to draw basic shapes let's try to draw something!
-Let's draw a "open mouth" smiley face. 
+Let's draw an "open mouth" smiley face. 
 
 See examples here: http://unicode.org/emoji/charts/full-emoji-list.html#1f62e
+
+Bonus: add some eye brows!
 */
 
 var setup = function() {
@@ -21,4 +23,8 @@ var draw = function() {
 
 	// mouth
 	ellipse(300, 350, 50, 80);
+
+	// bonus eye brows
+	// line(250, 230, 290, 240);
+	// line(350, 230, 310, 240);
 };
