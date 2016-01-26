@@ -7,9 +7,6 @@ Let's draw a smore by only using line(), stroke() and strokeWeight().
 I think this might be the perfect smore!
 http://www.puremadnesschocolate.com/media/wysiwyg/chocolate_smores_blog.jpg
 
-
-Let's add some nice white eyes and black pupils.
-
 Bonus: make some more smores but this time use rect()
 */
 
