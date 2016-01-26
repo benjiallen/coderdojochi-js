@@ -5,8 +5,8 @@ setup so special.
 Learning outcomes:
 
 1. When working with computer graphics outlines are called "strokes".
-2. We can tell the computer to have no outlines or we can tell the computer to
-   color in our outlines using RGB color.
+2. We can tell the computer to draw our shapes with no outlines or we can
+   tell the computer to color in our shape outlines using RGB color.
 3. When working with computer graphics the thickness of lines and outlines is 
    often referred to as "weight". You may have seen this term in your CSS class.
 4. The weight of outlines is measured in pixels.
