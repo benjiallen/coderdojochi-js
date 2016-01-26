@@ -1,5 +1,5 @@
 /*
-Learn how to add color to shapes, draw outlines and color outlines.
+Learn how to add color to shapes with RGB color.
 
 Learning outcomes:
 
