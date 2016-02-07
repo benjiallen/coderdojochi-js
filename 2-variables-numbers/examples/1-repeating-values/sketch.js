@@ -11,7 +11,7 @@ Learning outcomes:
 1. Programmers are lazy and they don't like repeating themselves. There are
    a few areas in our code where we do repeat ourselves and we want to change
    our code so we only have to change something in 1 place.
-2. JavaScript let's you create "variables". Variables are names for values in
+2. JavaScript lets you create "variables". Variables are names for values in
    your code. Let's create one called "faceSize". If you've ever done algebra
    at school then using variables will be familiar.
 3. When we create a name for a value we have to use the special word "var" in
