@@ -10,12 +10,16 @@ You can view the examples below:
         + [Basic shapes](http://benjiallen.github.io/coderdojochi-js/1-calling-functions/examples/1-simple-shapes/index.html)
         + [Add color to shapes - RGB values and fill()](http://benjiallen.github.io/coderdojochi-js/1-calling-functions/examples/2-fill-color/index.html)
         + [Control the outlines of our shapes with stroke()](http://benjiallen.github.io/coderdojochi-js/1-calling-functions/examples/3-stroke/index.html)
-        + [Fun with number variables](http://benjiallen.github.io/coderdojochi-js/2-variables-numbers/examples/1-repeating-values/index.html)
     - Challenges
         + [Neutral face smiley](http://benjiallen.github.io/coderdojochi-js/1-calling-functions/challenges/1-neutral-smiley/solution/index.html)
         + [Open mouth smiley](http://benjiallen.github.io/coderdojochi-js/1-calling-functions/challenges/2-open-mouth-smiley/solution/index.html)
         + [Eye balls](http://benjiallen.github.io/coderdojochi-js/1-calling-functions/challenges/3-eye-balls/solution/index.html)
         + [The perfect smore!](http://benjiallen.github.io/coderdojochi-js/1-calling-functions/challenges/4-smores/solution/index.html)
+* Lesson 2 - variables that are assigned numbers
+    - Examples
+        + [Variable basics - declare, assign, use](http://benjiallen.github.io/coderdojochi-js/2-variables-numbers/examples/1-repeating-values/index.html)
+    - Challenges
+        + [Ice cream dream](http://benjiallen.github.io/coderdojochi-js/2-variables-numbers/challenges/1-ice-cream/solution/index.html)
 
 ## Where are the lessons?
 

@@ -27,7 +27,7 @@ Learning outcomes:
    we can use them elsewhere in our code. We'll replace our values which 
    control the size of our face with our new variable "faceSize".
 
-Exercise: 
+Exercise: variable ice cream
 */
 
 // 1. introduce faceSize, replace where necessary
