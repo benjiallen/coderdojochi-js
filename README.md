@@ -18,8 +18,10 @@ You can view the examples below:
 * Lesson 2 - variables that are assigned numbers
     - Examples
         + [Variable basics - declare, assign, use](http://benjiallen.github.io/coderdojochi-js/2-variables-numbers/examples/1-repeating-values/index.html)
+        + [Number operators and using JavaScript like a calculator](/2-variables-numbers/examples/2-number-operators/operators-in-the-console.js)
     - Challenges
         + [Ice cream dream](http://benjiallen.github.io/coderdojochi-js/2-variables-numbers/challenges/1-ice-cream/solution/index.html)
+        + [Seconds in a year and number of pizza slices per person](/coderdojochi-js/2-variables-numbers/challenges/2-console-practice-seconds-pizza/solution/seconds-pizza.js)
 
 ## Where are the lessons?
 
