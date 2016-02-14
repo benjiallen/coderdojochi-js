@@ -5,26 +5,35 @@ multiplication. Variables can do all that too!
 
 Learning outcomes:
 
-1. 
+1. Discover the Chrome Developer Console. Ninja Tool!
+2. We can add, subtract, divide and multiply numbers.
+3. We evaluate the right hand side of our assignment and then assign the value
+   to our variable name on the left hand side.
+4. We can use these operators to make JavaScript become a calculator.
+5. Programmers love shortcuts! There are numerous shortcuts for our number
+   operators. 
 
-Exercise: 
+Exercises: 
+
+* Work out the number of seconds in a year
+* Work out how many slices of pizza everyone can have at the end of class!
 */
 
-// might be a lot easier and more satisfying to do this work in the developer
-// console. Not sure if this is too much to learn.
-
 // basic examples
+// addition, subtraction, division and multiplication operators
 var a = 10 + 2;
 var b = 10 - 2;
 var c = 10 / 2;
 var d = 10 * 3;
 
-// referencing another variable within an assignment
+// using JavaScript as a simple calculator
+// we can reference another variable within an assignment
+// we evaluate the right hand side before assigning it to the left hand side
 var hoursInDay = 24;
 var daysInWeek = 7;
 var hoursInWeek = hoursInDay * daysInWeek; // 24 * 7 = 168 
 
-// referencing the variable your working with within the assignment
+// adding 1 to a variable we have already defined
 a = a + 1;
 
 // shortcuts
@@ -34,40 +43,11 @@ a *= 2; // a = a * 2;
 a /= 2; // a = a / 2;
 
 // even shorter shortcuts
-// incrementing and decrementing
+// incrementing and decrementing a variable by 1
 a++; // a = a + 1;
 ++a; // a = a + 1;
 a--; // a = a - 1;
 --a; // a = a - 1;
 
-// other things:
-// order of operations e.g., var a = 12 + 3 * 4 - 4 / 2
-
-// exercise ideas:
-// work out the number of seconds in a year
-// work out how many slices of pizza everyone can have at the end of class!
-
-// next class - how this helps us draw animation!
-
-var wheelSize = 75;
-var carX = 300;
-
-var setup = function() {
-  	createCanvas(600, 600);
-};
-
-var draw = function() {	
-	background(255, 255, 255);
-	// car
-	fill(255, 0, 0);
-	// make the move forward
-	carX = carX + 1;
-	// make the car move backwards
-	// carX = carX - 1;
-	rect(carX, 300, 200, 100);
-	
-	// wheels of car
-	// fill(0, 0, 0);
-	// ellipse(300, 400, wheelSize, wheelSize);
-	// ellipse(500, 400, wheelSize, wheelSize);
-};
+// other things (out of scope for this class):
+// order of operations e.g., var a = 12 + 3 * 4 - 4 / 2;
