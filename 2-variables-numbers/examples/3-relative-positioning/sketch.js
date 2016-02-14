@@ -58,7 +58,8 @@ var draw = function() {
 
 	// windscreen
 	noFill();
-	stroke(1);
+	strokeWeight(1);
+	stroke(0, 0, 0);
 	// 7. draw the windscreen relative to (carX, carY)
 	triangle(carX+carWidth, carY,
 			 carX+carWidth-windscreenWidth, carY,
