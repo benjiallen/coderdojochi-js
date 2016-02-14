@@ -25,6 +25,7 @@ You can view the examples below:
         + [Ice cream dream](http://benjiallen.github.io/coderdojochi-js/2-variables-numbers/challenges/1-ice-cream/solution/index.html)
         + [Seconds in a year and number of pizza slices per person](/2-variables-numbers/challenges/2-console-practice-seconds-pizza/solution/seconds-pizza.js)
         + [Open mouth smiley drawn using relative positioning](http://benjiallen.github.io/coderdojochi-js/2-variables-numbers/challenges/3-relative-smiley/solution/index.html)
+        + [Lake Michigan sunrise with boats and shooting stars!](http://benjiallen.github.io/coderdojochi-js/2-variables-numbers/challenges/4-sunrise/solution/index.html)
 
 ## Where are the lessons?
 
