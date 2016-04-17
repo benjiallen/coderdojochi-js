@@ -36,28 +36,32 @@ var gridSetup = function() {
       .style('border-radius', '5px')
       .style('font-family', 'Verdana')
       .style('padding', '5px');
+    tooltip.hide();
     canvas.mouseMoved(showToolTip);
 };
 
 // function called with checkbox changes state
 var showGrid = function() {
     if (this.checked()) {
-        push();
-        // TODO(ballen): update so it works when the canvas is not a square
-        for(var i = 0; i<width; i+=20){
-            line(i, 0, i, height);
-            line(0, i, width, i);
-        }
-        pop();
+        drawGrid(0);
     } else {
-        push();
-        stroke(255);
-        for(var i = 0; i<width; i+=20){
-            line(i, 0, i, height);
-            line(0, i, width, i);
-        }
-        pop();
+        // draw over the grid in white
+        // TODO(ballen): need to work out how to get the background color
+        // redraw the grid with the background color
+        drawGrid(255);
     }
+};
+
+var drawGrid = function(strokeColor) {
+    push();
+    stroke(strokeColor)
+    for(var i = 0; i<width; i+=20){
+        line(i, 0, i, height);
+    }
+    for(var i = 0; i<height; i+=20){
+        line(0, i, width, i);
+    }
+    pop();
 };
 
 // function called when user is hovering over the canvas
@@ -71,8 +75,16 @@ var showToolTip = function() {
     else {
         // Re-draw the tooltip with current mouse x and y locations printed
         tooltip.html('<b>X:</b> ' + mouseX + '<br>' + ' <b>Y:</b> ' + mouseY);
+        // working out if the tooltip should be below or above the mouse pointer
+        var yPos = 0;
+        if(mouseY > height/2){
+            yPos = mouseY - 55;
+        }
+        else {
+            yPos = mouseY + 55;
+        }
         // Just spacing out the tooltip to where it makes most sense
-        tooltip.position(mouseX + 15, mouseY - 55);
+        tooltip.position(mouseX + 15, yPos);
         tooltip.show();
     }
 };
