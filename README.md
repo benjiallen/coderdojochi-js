@@ -4,7 +4,6 @@ Working with [CoderDojoChi](http://coderdojochi.org/) to teach children the basi
 
 You can view the examples below:
 
-* [Hello World! Smiley face example](http://benjiallen.github.io/coderdojochi-js/hello-world/)
 * Lesson 1 - calling functions
     - Examples
         + [Basic shapes](http://benjiallen.github.io/coderdojochi-js/1-calling-functions/examples/1-simple-shapes/index.html)
@@ -26,6 +25,9 @@ You can view the examples below:
         + [Seconds in a year and number of pizza slices per person](/2-variables-numbers/challenges/2-console-practice-seconds-pizza/solution/seconds-pizza.js)
         + [Open mouth smiley drawn using relative positioning](http://benjiallen.github.io/coderdojochi-js/2-variables-numbers/challenges/3-relative-smiley/solution/index.html)
         + [Lake Michigan sunrise with boats and shooting stars!](http://benjiallen.github.io/coderdojochi-js/2-variables-numbers/challenges/4-sunrise/solution/index.html)
+* Examples for fun
+    - [Hello World! Smiley face example](http://benjiallen.github.io/coderdojochi-js/just-for-fun/hello-world/index.html)
+    - [Cookie monster with wobbly eyes!](http://benjiallen.github.io/coderdojochi-js/just-for-fun/eyeballs/index.html)
 
 ## Where are the lessons?
 
