@@ -9,16 +9,7 @@ var canvas;
 
 var setup = function() {
     canvas = createCanvas(600, 600);
-    checkbox = createCheckbox('Show grid', false);
-    checkbox.changed(showGrid);
-    tooltip = createDiv('<b>X:</b> 0<br><b>Y:</b> 0')
-      .id('tooltip')
-      .size(55, 40)
-      .style('background-color','lightgrey')
-      .style('border-radius', '5px')
-      .style('font-family', 'Verdana')
-      .style('padding', '5px');
-    canvas.mouseMoved(showToolTip);
+    gridSetup();
 };
 
 var draw = function() {
@@ -32,8 +23,21 @@ var draw = function() {
     rect(300, 300, 200, 200);
 };
 
+var gridSetup = function() {
+    checkbox = createCheckbox('Show grid', false);
+    checkbox.changed(showGrid);
+    tooltip = createDiv('<b>X:</b> 0<br><b>Y:</b> 0')
+      .id('tooltip')
+      .size(55, 40)
+      .style('background-color','lightgrey')
+      .style('border-radius', '5px')
+      .style('font-family', 'Verdana')
+      .style('padding', '5px');
+    canvas.mouseMoved(showToolTip);
+};
+
 // function called with checkbox changes state
-var showGrid = function () {
+var showGrid = function() {
     if (this.checked()) {
         push();
         // TODO(ballen): update so it works when the canvas is not a square
@@ -54,8 +58,10 @@ var showGrid = function () {
 };
 
 // function called when user is hovering over the canvas
-var showToolTip = function () {
-    // Check if mouse is outside canvas bounds, hide/show depending
+var showToolTip = function() {
+    // Check if mouse is outside canvas bounds and check the state of
+    // the checkbox, hide if the mouse is out of bounds or checkbox
+    // is unchecked.
     if (mouseX > width || mouseY > height || !checkbox.checked()) {
         tooltip.hide();
     }
