@@ -12,6 +12,11 @@ var canvas;
 
 var setup = function() {
     canvas = createCanvas(600, 600);
+    // Adding a parent container is a necessary step!
+    // In index.html I'm applying a border to the container and not
+    // the canvas. If you apply a border to the canvas then the 
+    // tooltip shows the wrong coordinates.
+    canvas.parent("container");
     gridSetup();
 };
 
