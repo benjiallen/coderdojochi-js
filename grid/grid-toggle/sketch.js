@@ -15,7 +15,7 @@ var setup = function() {
     // Adding a parent container is a necessary step!
     // In index.html I'm applying a border to the container and not
     // the canvas. If you apply a border to the canvas then the 
-    // tooltip shows the wrong coordinates.
+    // tooltip shows the wrong coordinates. 
     canvas.parent("container");
     gridSetup();
 };
@@ -55,6 +55,7 @@ var showGrid = function() {
         // TODO(ballen): need to work out how to get the background color
         // redraw the grid with the background color
         drawGrid(255);
+        tooltip.hide();
     }
 };
 
@@ -83,6 +84,7 @@ var showToolTip = function() {
         // Re-draw the tooltip with current mouse x and y locations printed
         tooltip.html('<b>X:</b> ' + mouseX + '<br>' + ' <b>Y:</b> ' + mouseY);
         // working out if the tooltip should be below or above the mouse pointer
+        // TODO(ballen): should do the same check for the x position
         var yPos = 0;
         if(mouseY > height/2){
             yPos = mouseY - 55;
