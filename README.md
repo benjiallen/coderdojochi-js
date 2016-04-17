@@ -25,6 +25,8 @@ You can view the examples below:
         + [Seconds in a year and number of pizza slices per person](/2-variables-numbers/challenges/2-console-practice-seconds-pizza/solution/seconds-pizza.js)
         + [Open mouth smiley drawn using relative positioning](http://benjiallen.github.io/coderdojochi-js/2-variables-numbers/challenges/3-relative-smiley/solution/index.html)
         + [Lake Michigan sunrise with boats and shooting stars!](http://benjiallen.github.io/coderdojochi-js/2-variables-numbers/challenges/4-sunrise/solution/index.html)
+* Utilities
+    - [Show or hide a grid and tooltip](http://benjiallen.github.io/coderdojochi-js/utilities/grid-toggle/index.html). Should help kids grasp coordinate systems.
 * Examples for fun
     - [Hello World! Smiley face example](http://benjiallen.github.io/coderdojochi-js/just-for-fun/hello-world/index.html)
     - [Cookie monster with wobbly eyes!](http://benjiallen.github.io/coderdojochi-js/just-for-fun/eyeballs/index.html)
