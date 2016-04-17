@@ -26,6 +26,7 @@ var draw = function() {
     rect(300, 300, 200, 200);
 };
 
+// takes care of all the setup required to get the grid and tooltip working
 var gridSetup = function() {
     checkbox = createCheckbox('Show grid', false);
     checkbox.changed(showGrid);
@@ -52,6 +53,7 @@ var showGrid = function() {
     }
 };
 
+// helper function, required to draw a simple grid of a particular color
 var drawGrid = function(strokeColor) {
     push();
     stroke(strokeColor)
