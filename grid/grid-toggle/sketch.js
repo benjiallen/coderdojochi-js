@@ -1,5 +1,8 @@
 /*
-Draw a grid when a checkbox is checked.
+Draw a grid and show a tooltip when a checkbox is checked.
+
+Useful docs:
+http://p5js.org/reference/#/libraries/p5.dom
 http://p5js.org/reference/#/p5/createCheckbox
 */
 
